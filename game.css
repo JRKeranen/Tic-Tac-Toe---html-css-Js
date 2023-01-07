@@ -1,0 +1,125 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: black;
+}
+
+.content {
+    color: #fff;
+    background-color: #111111;
+    height: 1000px;
+}
+
+.content div {
+    display: flex;
+}
+.title {
+    justify-content: center;
+    padding: 30px;
+    font-size: 22px;
+}
+.difficulty {
+    display: flex;
+    justify-content: space-between;
+}
+.single {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+}
+.two {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.dif {
+    display: flex;
+    justify-content: center;
+}
+h3 {
+    margin: 0px 0px 20px
+}
+.two a {
+    
+    color: #fff;
+}
+.single a {
+    color: #fff;
+}
+.tile:nth-child(even){
+    height: 150px;
+    width: 150px;
+    background-color: #1a1a1a;
+  
+}
+.tile:nth-child(even):hover{
+    background-color: #b3b3b3;
+}
+.tile:nth-child(odd) {
+    height: 150px;
+    width: 150px;
+    background-color: #0d0d0d;
+ 
+}
+.tile:nth-child(odd):hover {
+    background-color: #666666 ;
+
+}
+
+
+.board {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    background-color: #55ff00;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.butcont {
+    display: flex;
+    flex-direction: row;
+}
+.button {
+    background-color: #55eb47;
+    padding:20px 30px;
+    margin:15px;
+    color :white;
+    font-weight: 800;
+}
+.button:nth-last-child(1) {
+    background-color: black;
+}
+.button:nth-last-child(2):hover {
+    background-color: #4ed12d;
+}
+.tile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #55ff00;
+    font-size: 160px;
+}
+.home {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #1a1a1a;
+    margin:15px;
+    padding: 20px 30px;
+    
+}
+.home:hover {
+    background-color: #666666;
+}

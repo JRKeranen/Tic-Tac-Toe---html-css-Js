@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #1a1a1a;
+}
+.cont {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.tictactoe {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    color:#55ff00;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #55ff00;
+    padding: 20px 30px;
+    font-weight: 800;
+    font-size: 40px;
+    background-color: #0d0d0d;
+}
+.tictactoe:hover{
+    background-color: #666;
+    border-color: #00ff00;
+}
